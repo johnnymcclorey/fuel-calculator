@@ -16,19 +16,22 @@
         <div class="calculator-block">
             <div class="calculator-field">
                 <h3>Race Length (in minutes)</h3>
-                <input class="calc-input" type="number">
+                <input class="calc-input" placeholder="40" type="number" id="race-length">
             </div>         
             <div class="calculator-field">
                 <h3>Lap Time</h3>
                 <div class="form-inline">
-                    <input placeholder="Min" type="number" class="calc-input" min="0" max="59">
+                    <input placeholder="Min" type="number" class="calc-input" min="0" max="59" id="lap-minutes">
                     <span class="input-comma">:</span>
-                    <input placeholder="Sec" type="number" class="calc-input" min="0" max="59">
+                    <input placeholder="Sec" type="number" class="calc-input" min="0" max="59" id="lap-seconds">
                 </div>
             </div>         
             <div class="calculator-field">
-                <h3>Fuel Per Lap</h3>
-                <input class="calc-input" type="number">
+                <h3>Fuel Per Lap (litres)</h3>
+                <input class="calc-input" placeholder="3.5l" type="number" id="fuel-per-lap">
+            </div>         
+            <div class="button-field">
+                <button class="btn-calculate" onclick="calculateFuel()">Calculate</button>
             </div>         
         </div>
     </div>

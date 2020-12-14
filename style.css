@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
+:root {
+    --primary-color: #0F1316;
+    --secondary-color: #111D31;
+    --trim-color: #D4FF00;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -9,7 +15,7 @@ body {
 .outer-container {
     width: 100vw;
     height: 100vh;
-    background-color: #6B717E;
+    background-color: var(--primary-color);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -19,7 +25,7 @@ body {
 
 .calculator-block {
     display: inline-block;
-    background-color: #3e4452;
+    background-color: var(--secondary-color);
     color: #fff;
     width: 30vw;
     margin: 0 auto;
@@ -55,7 +61,7 @@ body {
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: solid #238fcc 1px;
+    border-bottom: solid var(--trim-color) 1px;
     width: 100%;
     text-align: center;
     color: #9a9a9a;
@@ -69,22 +75,22 @@ body {
 }
 
 .btn-calculate {
-    background-color: #238fcc;
+    background-color: var(--trim-color);
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
-    color: #3e4452;
+    color: var(--secondary-color);
     text-transform: uppercase;
-    border: 1px solid #238fcc;
+    border: 1px solid var(--trim-color);
     margin: 0 auto;
 }
 
 .btn-calculate:hover {
-    background-color: #3e4452;
-    color: #238fcc;
-    border: 1px solid #238fcc;
+    background-color: var(--secondary-color);
+    color: var(--trim-color);
+    border: 1px solid var(--trim-color);
     cursor: pointer;
 }
 

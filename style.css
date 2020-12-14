@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #6B717E;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-block {
+    display: inline-block;
+    background-color: #3e4452;
+    color: #fff;
+    width: 30vw;
+    margin: 0 auto;
+    padding: 50px 100px;
+}
+
+.calculator-field h3 {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.form-inline {
+    display: flex;
+}
+
+.form-inline .input-comma {
+    line-height: 3em;
+}
+
+.form-inline .calc-input {
+    width: 50%;
+}
+
+.calc-input {
+    background: none;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #238fcc 1px;
+    width: 100%;
+    text-align: center;
+    color: #9a9a9a;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.calculator-field {
+    margin: 20px 0 10px 0;
+}

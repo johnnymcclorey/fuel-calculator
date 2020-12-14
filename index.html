@@ -9,10 +9,6 @@
 </head>
 <body>
     <div class="outer-container">
-        <div class="title-block">
-
-        </div>
-
         <div class="calculator-block">
             <div class="calculator-field">
                 <h3>Race Length (in minutes)</h3>
@@ -32,7 +28,17 @@
             </div>         
             <div class="button-field">
                 <button class="btn-calculate" onclick="calculateFuel()">Calculate</button>
-            </div>         
+            </div>    
+            
+            <div class="calculations-block">
+                <div class="calculation-result">
+                    <h4>Total Fuel</h4>
+                    <span id="total-fuel-result">
+                        0 litres
+                    </span>
+                </div>
+            </div>
+
         </div>
     </div>
 </body>

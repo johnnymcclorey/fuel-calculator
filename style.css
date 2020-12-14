@@ -26,9 +26,15 @@ body {
     padding: 50px 100px;
 }
 
-.calculator-field h3 {
+.calculator-block h3, h4 {
     margin: 0;
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+.calculator-block span {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
 }
 
 .form-inline {

@@ -14,5 +14,5 @@ function calculateFuel() {
 
     totalFuel = lapsPerRace * fuelPerLap;
 
-    console.log(totalFuel);
+    document.getElementById("total-fuel-result").innerHTML = totalFuel.toFixed(2) + " litres";
 }
